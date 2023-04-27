@@ -1,26 +1,26 @@
 using System;
-class LetterDicc
+class NumberDicc
 {
-private Dictionary<char, int> dict;
+private Dictionary<int, char> dictN;
 
-   public LetterDicc()
+   public NumberDicc()
     {
     
-     dict = new Dictionary<char, int>();   
+     dictN = new Dictionary<int, char>();   
      Random rnd = new Random(); 
-     for (int i = 65; i <= 90; i++){
-        dict.Add(((char)i), rnd.Next(3200,9999));
+     for (int i = 48; i <= 57; i++){
+        dictN.Add(((int)i), (char)rnd.Next(49,57));
      }
 
 
     }
     public void printDicc(){
-      foreach(KeyValuePair<char,int> ele in dict){
+      foreach(KeyValuePair<int,char> ele in dictN){
          Console.WriteLine(ele.Key + " " + ele.Value);
       }
     }
-    
-   public List<int> replaceInput(string inputUpper){
+}
+ /*  public List<int> replaceInput(string inputUpper){
          char[] chars = inputUpper.ToCharArray();
           List<int> numbers = new List<int>();
          for (int i = 0; i < chars.Length; i++){
@@ -34,3 +34,4 @@ private Dictionary<char, int> dict;
         return numbers;
    }
 }
+ */
