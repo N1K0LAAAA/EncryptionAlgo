@@ -1,7 +1,7 @@
 using System;
 class EncryptToNumber{
 
-    public List<int> encryptList(List<int> numbers)
+    public List<int> encryptNumberList(List<int> numbers)
     {
         List<int> numbersEncrypt = new List<int>();
         for (int i = 0; i < numbers.Count; i++)

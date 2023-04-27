@@ -16,7 +16,9 @@ class TestClass
         Number.printDicc();
         Letter.replaceInput(inputUpper);
         List<int> numbers = Letter.replaceInput(inputUpper);
-        Encrypt.encryptList(numbers);
+        Encrypt.encryptNumberList(numbers);
+        List<int> numbersEncrypt = Number.replaceNumberInput(numbersEncrypt);
+        Number.replaceNumberInput(numbersEncrypt);
         Console.ReadKey();
     }
 }
