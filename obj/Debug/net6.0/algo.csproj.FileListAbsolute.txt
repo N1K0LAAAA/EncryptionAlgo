@@ -1,0 +1,15 @@
+C:\Users\zsava\OneDrive\Desktop\Algo\bin\Debug\net6.0\algo.exe
+C:\Users\zsava\OneDrive\Desktop\Algo\bin\Debug\net6.0\algo.deps.json
+C:\Users\zsava\OneDrive\Desktop\Algo\bin\Debug\net6.0\algo.runtimeconfig.json
+C:\Users\zsava\OneDrive\Desktop\Algo\bin\Debug\net6.0\algo.dll
+C:\Users\zsava\OneDrive\Desktop\Algo\bin\Debug\net6.0\algo.pdb
+C:\Users\zsava\OneDrive\Desktop\Algo\obj\Debug\net6.0\algo.csproj.AssemblyReference.cache
+C:\Users\zsava\OneDrive\Desktop\Algo\obj\Debug\net6.0\algo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zsava\OneDrive\Desktop\Algo\obj\Debug\net6.0\algo.AssemblyInfoInputs.cache
+C:\Users\zsava\OneDrive\Desktop\Algo\obj\Debug\net6.0\algo.AssemblyInfo.cs
+C:\Users\zsava\OneDrive\Desktop\Algo\obj\Debug\net6.0\algo.csproj.CoreCompileInputs.cache
+C:\Users\zsava\OneDrive\Desktop\Algo\obj\Debug\net6.0\algo.dll
+C:\Users\zsava\OneDrive\Desktop\Algo\obj\Debug\net6.0\refint\algo.dll
+C:\Users\zsava\OneDrive\Desktop\Algo\obj\Debug\net6.0\algo.pdb
+C:\Users\zsava\OneDrive\Desktop\Algo\obj\Debug\net6.0\algo.genruntimeconfig.cache
+C:\Users\zsava\OneDrive\Desktop\Algo\obj\Debug\net6.0\ref\algo.dll
