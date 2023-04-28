@@ -24,7 +24,7 @@ private Dictionary<int, char> dictN; // We use a constructor and make a private 
             List<char> final = new List<char>(); // New char list 
             for (int i = 0; i < numbersEncrypt.Count; i++){ // for every Number that we multiplicated 
             if (dictN.ContainsKey(numbersEncrypt[i])){ // we check if contains the Key (0-9)
-               final.Add(dictN[numbersEncrypt[i]]); // and if does we add it to our Dictionary
+               final.Add(dictN[numbersEncrypt[i]]); // and if does we add it to our Final List 
             }
          }
         
