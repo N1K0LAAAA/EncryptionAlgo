@@ -5,17 +5,24 @@ class NumberDicc
 
     // Here We Create a Dictionary , The Key is 0 till 9 and the Value are random Letters of the Alphabet
 
-    public NumberDicc()
+public NumberDicc()
+{
+    dictN = new Dictionary<int, char>();
+    Random rnd = new Random();
+    HashSet<char> addedChars = new HashSet<char>();
+
+    for (int i = 0; i <= 9; i++)
     {
+        char c;
+        do {
+            c = (char)rnd.Next(65, 90);
+        } while (addedChars.Contains(c));
 
-        dictN = new Dictionary<int, char>();
-        Random rnd = new Random();
-        for (int i = 0; i <= 9; i++)
-        {
-            dictN.Add(((int)i), (char)rnd.Next(65, 90));
-        }
-
+        addedChars.Add(c);
+        dictN.Add(i, c);
     }
+}
+
 
    //Debugging Pourpose 
 

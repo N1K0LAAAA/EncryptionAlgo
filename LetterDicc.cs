@@ -4,18 +4,23 @@ class LetterDicc
     private Dictionary<char, int> dict;
 
     // Here We Create a Dictionary , The Key is every letter of the alphabet and the Value a number between 3200 and 9999
-    public LetterDicc()
+public LetterDicc()
+{
+    dict = new Dictionary<char, int>();
+    Random rnd = new Random();
+    HashSet<int> addedInts = new HashSet<int>();
+
+    for (int i = 65; i <= 90; i++)
     {
+        int n;
+        do {
+            n = rnd.Next(3200, 9999);
+        } while (addedInts.Contains(n));
 
-        dict = new Dictionary<char, int>();
-        Random rnd = new Random();
-        for (int i = 65; i <= 90; i++)
-        {
-            dict.Add(((char)i), rnd.Next(3200, 9999));
-        }
-
-
+        addedInts.Add(n);
+        dict.Add((char)i, n);
     }
+}
     
     // This  was just used for Debugging
     public void printDicc()
