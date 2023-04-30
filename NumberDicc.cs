@@ -1,4 +1,5 @@
 using System;
+using Newtonsoft.Json;
 class NumberDicc
 {
     private Dictionary<int, char> dictN;
@@ -65,5 +66,11 @@ public NumberDicc()
             
         }
         return encryptText;
+    }
+
+    public string exportDictionary(){
+        string number = JsonConvert.SerializeObject(dictN, Formatting.Indented);
+        Console.WriteLine(number);
+        return number;
     }
 }

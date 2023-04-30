@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "8a1BmWsfAd6rSQa1k1NcV5LlHXN0P1ue8EqvYT3ozA12TIEOZ7xjmqm4bZgGpQj/VKeXxBoGwN90ZbrehxrqSg==",
+  "dgSpecHash": "N/XWj0TQBq4snAc4uX35i0FE/5mbfXI2tH0opSSljeEn1E+d7cig+T/HANywHhwLYkqnQdOaoPquy2NLzdloUA==",
   "success": true,
   "projectFilePath": "C:\\Users\\zsava\\OneDrive\\Desktop\\Algo\\algo.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\zsava\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

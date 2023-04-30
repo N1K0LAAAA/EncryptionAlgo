@@ -1,4 +1,5 @@
 using System;
+using Newtonsoft.Json;
 class LetterDicc
 {
     private Dictionary<char, int> dict;
@@ -44,5 +45,10 @@ public LetterDicc()
         }
 
         return numbers;
+    }
+        public string exportDictionary(){
+        string letter = JsonConvert.SerializeObject(dict, Formatting.Indented);
+        Console.WriteLine(letter);
+        return letter;
     }
 }

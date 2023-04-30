@@ -15,6 +15,8 @@ class TestClass
         List<int> numbers = Letter.replaceInput(inputUpper); 
         List<int> numbersEncrypt = Encrypt.encryptNumberList(numbers); 
         string encryptedText = Number.replaceNumberInput(numbersEncrypt);
+        string letter = Letter.exportDictionary();
+        string number = Number.exportDictionary();
         Console.WriteLine(encryptedText);
         Console.ReadKey();
     }
