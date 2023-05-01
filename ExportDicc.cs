@@ -17,6 +17,7 @@ class ExportDicc{
         for (int i = 0; i < exportableStringNumber.Length; i++){
             exportBothDictionaries += exportableStringNumber[i];
         }
+        
         Console.WriteLine(exportBothDictionaries);
         return letterToExportableString;
         
